@@ -13,7 +13,7 @@ body {
             }
             .topnav {
                 width: 100%; 
-                background-image: url('C:/Users/ibitton/Pictures/metal.jpg');
+                background-image: url('metal.jpg');
                 overflow: hidden;
                 border: 4px solid #383A3A;
                 position: fixed;
@@ -51,7 +51,7 @@ body {
                 padding: 25px 50px 75px 100px;
                 background-size: 100% 100%;
                 border: none;
-                background-image: url('C:/Users/ibitton/Pictures/287027.jpg');
+                background-image: url('287027.jpg');
                 background-attachment: fixed;
                 background-position: center;
                 background-size: 100% 100%;
