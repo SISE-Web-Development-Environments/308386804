@@ -117,15 +117,23 @@
             <section class="sec" id="contactme">
                 <h1 class="h1">Contact Me</h1>
                 <div class="contactForm">
-                    <form id="contactForm" action=”mailto:inbalbit@post.bgu.ac.il” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-                    <strong style="color: darkred;">Email:</strong><br>
-                    <input type="email" id="email" name="Sender Email address" placeholder="Your email" required><br>
-                    <strong style="color: darkred;">Subject:</strong><br>
-                    <input type="text" id="subj" name="subject" placeholder="subject" required><br>
-                    <strong style="color: darkred;">Message:</strong><br>
-                    <textarea  name="msg" placeholder="Write massage" style="height:150px"></textarea><br>
-                    <input type="submit" value="SEND MESSAGE">
-                </form>
+                    <form action="mailto:inbalbit@post.bgu.ac.il" method="post" enctype="text/plain" >
+                        <p>
+                            <strong style="color: darkred;">Email:</strong><br>
+                            <input type="email" name="Sender Email address" placeholder="Your email" required><br>
+                            <strong style="color: darkred;">Subject:</strong><br>
+                            <input type="text" name="subject" placeholder="subject" required><br>
+                            <strong style="color: darkred;">Message:</strong><br>
+                            <textarea  name="msg" placeholder="Write massage" style="height:150px"></textarea><br>
+                            <STRONG style="color: darkred;">You can't choose how you feel because you always have to smile and be Happy:</STRONG><br>
+                            <select NAME = "emoji" style="margin-top: 4px;margin-bottom: 2px; height:40px; box-sizing: border-box; border: 1px solid black ">
+                                    <option>&#128513</option>
+                            </select><br>
+                            <input type="submit" value="SEND MESSAGE">
+                            <br>
+                            <input type="reset" value="RESET">
+                        </p>
+                    </form>
                 </div>
             </section>
         </main>
