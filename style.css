@@ -158,8 +158,6 @@
                 margin-top: 50px;
             }
             
-
-
             input[type=text], textarea {
                 width: 450px;
                 background: transparent;
@@ -187,7 +185,6 @@
                 margin-top: 2px;
             }
             
-
             input[type=submit] {
                 background-color: black;
                 color: white;
@@ -206,6 +203,7 @@
                 border: none;
                 cursor: pointer;
                 float: none;
+		margin-top: 2px;
             }
 
             input[type=submit]:hover {
