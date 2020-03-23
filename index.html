@@ -116,16 +116,17 @@
             </section>
             <section class="sec" id="contactme">
                 <h1 class="h1">Contact Me</h1>
-                <form action=”mailto:inbalbit@post.bgu.ac.il” method=”post” enctype=”multipart/form-data” name=”EmailFromAFan”>
-                    <strong>Email:</strong><br>
-                    <input type="text" id="email" name="Sender Email address" placeholder="Your email"><br>
-                    <strong>Subject:</strong><br>
-                    <input type="text" id="subj" name="subject" placeholder="subject"><br>
-                    <strong>Message:</strong><br>
-                    <textarea id="msg" name="msg" placeholder="Write message" style="height:150px"></textarea><br>
+                <div class="contactForm">
+                    <form id="contactForm" action=”mailto:inbalbit@post.bgu.ac.il” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+                    <strong style="color: darkred;">Email:</strong><br>
+                    <input type="email" id="email" name="Sender Email address" placeholder="Your email" required><br>
+                    <strong style="color: darkred;">Subject:</strong><br>
+                    <input type="text" id="subj" name="subject" placeholder="subject" required><br>
+                    <strong style="color: darkred;">Message:</strong><br>
+                    <textarea  name="msg" placeholder="Write massage" style="height:150px"></textarea><br>
+                    <input type="submit" value="SEND MESSAGE">
                 </form>
-                <input type="submit" value="Submit">
-                <br>
+                </div>
             </section>
         </main>
 <script type="text/javascript">
