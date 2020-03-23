@@ -148,6 +148,11 @@
                 height: 300px;
                 width: 300px
             }
+
+	     .q2 {
+                height: 400px;
+                width: 400px
+            }
             
 
             input[type=text], textarea {
